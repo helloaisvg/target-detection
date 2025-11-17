@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+!weights/yolov5s.pt  # 保留预训练权重示例
+
+# 数据集
+9ae60-main/
+vision-0.9.0/
+*.zip
+
+# 训练和检测结果
+runs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+test_*.jpg
+test_*.png
+
+# 大文件
+*.mp4
+*.avi
+*.mov
+
+# 文档
+# *.md
+
